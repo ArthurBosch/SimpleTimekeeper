@@ -275,7 +275,7 @@ body {
 
 .side-navigation {
   position: absolute;
-  right: -400px;
+  right: -800px;
   top: 0px;
   width: 50%;
   height: 100vh;
@@ -305,4 +305,8 @@ body {
 /* FUNCTIONAL */
 .hidden {
   display: none;
+}
+
+.visibility-hidden {
+  visibility: hidden;
 }
