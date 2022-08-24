@@ -133,7 +133,7 @@ body {
 
 .shift-info {
   position: relative;
-  bottom: -270px;
+  bottom: -180px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,20 +257,6 @@ body {
   background-color: rgb(0, 0, 0, 0.1);
 }
 
-/* .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  transition: opacity 200ms;
-  visibility: hidden;
-  opacity: 0;
-} */
-
 .side-navigation {
   position: absolute;
   right: -800px;
@@ -294,6 +280,10 @@ body {
   margin-bottom: 30px;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
 .nav-link img {
   width: 30px;
   height: 30px;
