@@ -133,7 +133,7 @@ body {
 
 .shift-info {
   position: relative;
-  bottom: -180px;
+  margin-bottom: -70%;
   display: flex;
   flex-direction: column;
   align-items: center;
