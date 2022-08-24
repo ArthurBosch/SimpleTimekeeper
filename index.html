@@ -16,38 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="overlay">
-      <nav class="side-navigation" id="navigation">
-        <ul>
-          <li class="nav-li">
-            <a class="nav-link"
-              ><img src="./assets/svg icons/home.svg" />Home</a
-            >
-          </li>
-          <li class="nav-li">
-            <a class="nav-link"
-              ><img src="./assets/svg icons/list.svg" />List</a
-            >
-          </li>
-          <li class="nav-li">
-            <a class="nav-link"
-              ><img src="./assets/svg icons/calendar.svg" />Calendar</a
-            >
-          </li>
-          <li class="nav-li">
-            <a class="nav-link"
-              ><img src="./assets/svg icons/stats.svg" />Stats</a
-            >
-          </li>
-          <li class="nav-li">
-            <a class="nav-link"
-              ><img src="./assets/svg icons/settings.svg" />Settings</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="container">
+    <div class="container" id="container">
       <!-- Top Bar -->
       <div class="header">
         <div class="inner-header-container">
@@ -55,6 +24,41 @@
           <div class="nav-container" id="navIcon">
             <img class="menu-icon" src="./assets/svg icons/menu.svg" />
           </div>
+        </div>
+      </div>
+
+      <!-- SIDE MENU -->
+      <div class="overlay-container">
+        <div id="overlay">
+          <nav class="side-navigation" id="navigation">
+            <ul>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/home.svg" />Home</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/list.svg" />List</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/calendar.svg" />Calendar</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/stats.svg" />Stats</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/settings.svg" />Settings</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
 
@@ -75,11 +79,8 @@
       </div>
 
       <!-- Footer -->
-      <div class="footer">
+      <div class="footer" id="footer">
         <div class="footer-container">
-          <!-- <div class="cirle-button" id="circleButton">
-            <img src="./assets/svg icons/double-chevron.svg" />
-          </div> -->
           <div class="shift-info info-minimized" id="shiftInfo">
             <div class="cirle-button" id="circleButton">
               <img src="./assets/svg icons/double-chevron.svg" />
