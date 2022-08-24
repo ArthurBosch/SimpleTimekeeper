@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css//normalize.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Timekeeper *DEMO* | LIST</title>
   </head>
@@ -13,7 +14,7 @@
       <!-- Top Bar -->
       <div class="header">
         <div class="inner-header-container">
-          <div class="text-container">Start shift</div>
+          <div class="text-container">List of Shifts</div>
           <div class="nav-container" id="navIcon">
             <img class="menu-icon" src="./assets/svg icons/menu.svg" />
           </div>
@@ -55,55 +56,8 @@
         </div>
       </div>
 
-      <!-- Main Section -->
-      <div class="main" id="main">
-        <div class="main-container">
-          <div class="preset-container">
-            <label class="preset-label" for="preset">Preset:</label><br />
-            <select class="preset-select" name="preset">
-              <option class="preset-option" value="sheraton">Sheraton</option>
-              <option class="preset-option" value="aroma">Aroma</option>
-              <option class="preset-option" value="extra">Extra</option>
-            </select>
-            <!-- <img class="chevron" src="./assets/svg icons/chevron.svg" /> -->
-          </div>
-          <button class="start-shift-button">Start Shift</button>
-        </div>
-      </div>
-
-      <!-- Footer -->
-      <div class="footer" id="footer">
-        <div class="footer-container">
-          <div class="shift-info info-minimized" id="shiftInfo">
-            <div class="cirle-button" id="circleButton">
-              <img src="./assets/svg icons/double-chevron.svg" />
-            </div>
-            <div class="shift-info--container">
-              <div class="shift-info--header">
-                <h2>This week:</h2>
-              </div>
-              <div class="shift-info--stats">
-                <div class="stats-card">
-                  <h3>34</h3>
-                  <span>hours</span>
-                </div>
-                <div class="stats-card">
-                  <h3>$543</h3>
-                  <span>earned</span>
-                </div>
-                <div class="stats-card">
-                  <h3>9.4</h3>
-                  <span>average</span>
-                </div>
-              </div>
-              <div class="shift-info--controls">
-                <button>More info</button>
-                <button>Shift settings</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- List Section -->
+      <div class="list-section" id="list"></div>
     </div>
   </body>
 </html>
