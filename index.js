@@ -23,15 +23,14 @@ const hideNav = (e) => {
   DOMElements.navIcon.classList.remove("visibility-hidden");
   DOMElements.overlay.classList.remove("overlay");
 };
-
 const showShiftInfo = () => {
   console.log("click");
-  DOMElements.shiftInfo.style.bottom = 0;
+  DOMElements.shiftInfo.style.bottom = "0px";
 };
 
 const hideShiftInfo = (e) => {
   if (e.target.closest("#shiftInfo")) return;
-  DOMElements.shiftInfo.style.bottom = "-200px";
+  DOMElements.shiftInfo.style.bottom = "-240px";
 };
 
 //LISTENERS

@@ -133,12 +133,12 @@ body {
 
 .shift-info {
   position: relative;
-  bottom: -200px;
+  bottom: -240px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 350px;
   background: linear-gradient(180deg, #00b3b3 0%, #007d7d 100%);
   border-radius: 5px 5px 0 0;
   transition: bottom 0.3s ease-in-out;
