@@ -28,6 +28,14 @@
 .date-number {
   margin: 0;
   display: inline;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.date-day {
+  font-size: 12px;
+  font-weight: 300;
+  color: #001f7d;
 }
 
 .info-button {
