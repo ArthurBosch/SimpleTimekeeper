@@ -30,7 +30,7 @@ const showShiftInfo = () => {
 
 const hideShiftInfo = (e) => {
   if (e.target.closest("#shiftInfo")) return;
-  DOMElements.shiftInfo.style.bottom = "-240px";
+  DOMElements.shiftInfo.style.bottom = "-24vh";
 };
 
 //LISTENERS
