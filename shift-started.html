@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/shift-started.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shift started</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- Top Bar -->
+      <div class="header">
+        <div class="inner-header-container">
+          <div class="text-container">My shift</div>
+          <div class="nav-container" id="navIcon">
+            <img class="menu-icon" src="./assets/svg icons/menu.svg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDE MENU -->
+      <div class="overlay-container">
+        <div id="overlay">
+          <nav class="side-navigation" id="navigation">
+            <ul>
+              <li class="nav-li">
+                <a href="#" class="nav-link"
+                  ><img src="./assets/svg icons/home.svg" />Home</a
+                >
+              </li>
+              <li class="nav-li">
+                <a href="list.html" class="nav-link"
+                  ><img src="./assets/svg icons/list.svg" />List</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/calendar.svg" />Calendar</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/stats.svg" />Stats</a
+                >
+              </li>
+              <li class="nav-li">
+                <a class="nav-link"
+                  ><img src="./assets/svg icons/settings.svg" />Settings</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Main Section -->
+      <div class="main" id="main">
+        <div class="shift-time">
+          <span class="shift-time--start">12:15</span> -
+          <span class="shift-time--end">9:30</span>
+        </div>
+        <div class="shift-chart">
+          <div class="span-container">
+            <span class="status chart-span">ongoing</span>
+            <span class="time-passed chart-span">3:31</span>
+            <span class="earned chart-span">$91.24</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
